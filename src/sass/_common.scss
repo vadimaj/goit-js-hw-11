@@ -1,1 +1,32 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+@import './_vars';
+body {
+  color: $primary-text-color;
+  background-color: $primary-beige-color;
+  font-family: $content-font;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+p,
+h2,
+h3 {
+  margin: 0;
+}
+
+.link-unstyled {
+  text-decoration: none;
+  font-style: normal;
+}
+
+input {
+  padding: 0;
+}
+button {
+  margin: 0;
+}
