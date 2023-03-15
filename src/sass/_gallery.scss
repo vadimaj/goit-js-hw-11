@@ -31,10 +31,10 @@
   width: calc((100% - 45px) / 4);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-
-  // &:last-child {
-  //   margin-bottom: 0;
-  // }
+  transition: transform $timing-foo;
+}
+.photo-card:hover {
+  transform: scale(1.015);
 }
 
 .photo-card-img {
@@ -63,4 +63,10 @@
 }
 .is-hidden {
   display: none;
+}
+.endOfCollection {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 18px;
 }
